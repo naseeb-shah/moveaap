@@ -118,7 +118,7 @@ display: none;
     var sai=[]
    function search (){
           var c =document.getElementById('deen').value
-        let url = `http://www.omdbapi.com/?apikey=8f7a9021&t=${c}`;
+        let url = `https://www.omdbapi.com/?apikey=8f7a9021&t=${c}`;
   var  data=fetch(url)
 
 data.then((r)=>r.json()).then((r)=>{
